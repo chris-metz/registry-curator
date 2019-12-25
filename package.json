@@ -1,0 +1,20 @@
+{
+  "name": "registry-curator",
+  "version": "1.0.0",
+  "description": "Manage repositories of a private docker registry",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "btoa": "^1.2.1",
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "enquirer": "^2.3.2"
+  },
+  "devDependencies": {}
+}
